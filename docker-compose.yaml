@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+  fluss-base:
+    image: xubiao05/fluss-base:1.0.0
+    container_name: fluss-base
+    restart: always
+    volumes:
+      - .:/app
